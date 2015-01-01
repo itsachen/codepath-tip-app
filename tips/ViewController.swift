@@ -30,6 +30,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     tipLabel.text = getCurrencySymbol() + "0.00"
     perPersonTotalLabel.text = getCurrencySymbol() + "0.00"
+    billField.placeholder = getCurrencySymbol()
     
     // Check if user stored default values exist
     updatePercentageValuesFromSettings()
